@@ -10,7 +10,7 @@ The analysis aims to uncover sales patterns, top-performing regions, and key pro
 2. [Data](#data)
 3. [Analysis & Findings](#analysis--findings)
 4. [Steps and Process](#steps-and-process)
-5. [Dashboard](#dashboard)
+5. [Dashboard](#Report)
 
 ---
 
