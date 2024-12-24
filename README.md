@@ -10,7 +10,7 @@ The analysis aims to uncover sales patterns, top-performing regions, and key pro
 2. [Data](#data)
 3. [Analysis & Findings](#analysis--findings)
 4. [Steps and Process](#steps-and-process)
-5. [Dashboard](#Report)
+5. [Dashboard](#report)
 
 ---
 
@@ -81,15 +81,13 @@ Develop a Power BI dashboard to effectively visualize product and sales data, en
 
 ### Exploratory Data Analysis (EDA)  
 
-- **Product Analysis:** A table chart displaying revenue contribution by product categories.
-
-- **Sales Analysis:** Line charts showing monthly revenue trends and a KPI card for year-over-year sales growth.
-
-- **Employee Analysis:** Dynamic Table illustrating the performance of sales representatives, highlighting top performers.
-
-- **Shipment Analysis:** Bar chart displaying relation between shipments and number of boxes shipped.
-
-- **Geo Analysis:** Pie chart displaying sales distribution across regions.
+|Analysis|Chart|
+|---|---|
+|**Employee Analysis:** Dynamic Table illustrating the performance of sales representatives, highlighting top performers. | ![image](https://github.com/user-attachments/assets/96a5e08d-0168-428e-be48-a3e4b9982693) |
+|**Sales Analysis:** Line charts showing monthly revenue trends and a KPI card for year-over-year sales growth. | ![image](https://github.com/user-attachments/assets/c7c5ef66-6b3e-49f5-9df3-182289613f31) |
+|**Geo Analysis:** Pie chart displaying sales distribution across regions. | ![image](https://github.com/user-attachments/assets/4a7bc2f4-6273-4722-83c2-488c9ff9ea57) |
+|**Shipment Analysis:** Bar chart displaying relation between shipments and number of boxes shipped. | ![image](https://github.com/user-attachments/assets/ff43365f-f90f-492e-ac2b-15b3835ac119) |
+|**Product Analysis:**  A table chart displaying revenue contribution by product categories. | ![image](https://github.com/user-attachments/assets/4ee90f62-90aa-4c31-a002-c94d0a0dcdbe) |
 
 ### Report  
 
