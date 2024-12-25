@@ -72,42 +72,39 @@ Develop a Power BI dashboard to effectively visualize product and sales data, en
 
 ## Steps and Process
 
-### Data Modeling
-- Designed a star schema in Power BI with a fact table for sales and dimension tables for products, regions, and empolyees.
+### Power BI Setup  
+  - Loading data into Power BI from Excel dataset.
+  - Introduction to the dataset's main tables, including Shipment and People tables.
+  - Initial table connections and manual adjustments for unlinked tables.
 
 ### Data Cleaning
 - Ensured consistent formatting of dates and product categories using Power Query.
 - Removed duplicates and handled missing values.
 
-### Exploratory Data Analysis (EDA)  
-
-|Analysis|Chart|
-|---|---|
-|**Employee Analysis:** Dynamic Table illustrating the performance of sales representatives, highlighting top performers. | ![image](https://github.com/user-attachments/assets/96a5e08d-0168-428e-be48-a3e4b9982693) |
-|**Sales Analysis:** Line charts showing monthly revenue trends and a KPI card for year-over-year sales growth. | ![image](https://github.com/user-attachments/assets/c7c5ef66-6b3e-49f5-9df3-182289613f31) |
-|**Geo Analysis:** Pie chart displaying sales distribution across regions. | ![image](https://github.com/user-attachments/assets/4a7bc2f4-6273-4722-83c2-488c9ff9ea57) |
-|**Shipment Analysis:** Bar chart displaying relation between shipments and number of boxes shipped. | ![image](https://github.com/user-attachments/assets/ff43365f-f90f-492e-ac2b-15b3835ac119) |
-|**Product Analysis:**  A table chart displaying revenue contribution by product categories. | ![image](https://github.com/user-attachments/assets/4ee90f62-90aa-4c31-a002-c94d0a0dcdbe) |
-
-### Report  
-
-**Power BI Setup**  
-  - Loading data into Power BI from Excel dataset.
-  - Introduction to the dataset's main tables, including Shipment and People tables.
-  - Initial table connections and manual adjustments for unlinked tables.
-
-**Data Modeling**  
+### Data Modeling 
   - Setting up relationships between tables using common columns.
-  - Calculations to analyze shipment data, including "Low Box Shipment Count" and "Low Box Percentage."
+  - Designed a star schema in Power BI with a fact table for sales and dimension tables for products, regions, and empolyees.
   - Formatting for profit and sales metrics to enhance readability.
      **Star Schema data model**   
   
   ![image](https://github.com/user-attachments/assets/5cbfb4cb-085e-4578-b724-5de7caf00390)  
 
-**DAX Calculations**  
+### DAX Calculations
   - Month-on-month and year-on-year calculations.
   - Dynamic measures for sales trends and latest month-over-month sales changes.
   - Designing a new DAX measure to track profit targets, enabling goal-tracking visuals on the dashboard.  
+
+### Exploratory Data Analysis (EDA)  
+
+|Analysis|Description|Chart|
+|---|---|---|
+|**Employee Analysis** | Dynamic Table illustrating the performance of sales representatives, highlighting top performers. | ![image](https://github.com/user-attachments/assets/96a5e08d-0168-428e-be48-a3e4b9982693) |
+|**Sales Analysis** | Line charts showing monthly revenue trends and a KPI card for year-over-year sales growth. | ![image](https://github.com/user-attachments/assets/c7c5ef66-6b3e-49f5-9df3-182289613f31) |
+|**Geographical Analysis** | Pie chart displaying sales distribution across regions. | ![image](https://github.com/user-attachments/assets/4a7bc2f4-6273-4722-83c2-488c9ff9ea57) |
+|**Shipment Analysis** | Bar chart displaying relation between shipments and number of boxes shipped. | ![image](https://github.com/user-attachments/assets/ff43365f-f90f-492e-ac2b-15b3835ac119) |
+|**Product Analysis** | A table chart displaying revenue contribution by product categories. | ![image](https://github.com/user-attachments/assets/4ee90f62-90aa-4c31-a002-c94d0a0dcdbe) |
+
+### Dashboard  
 
 **Dashboard Design and Layout**  
   - designed strategies for arranging high-level summary metrics and detailed data.
