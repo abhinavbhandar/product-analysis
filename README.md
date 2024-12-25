@@ -10,17 +10,17 @@ The analysis aims to uncover sales patterns, top-performing regions, and key pro
 2. [Data](#data)
 3. [Analysis & Findings](#analysis--findings)
 4. [Steps and Process](#steps-and-process)
-5. [Dashboard](#report)
+5. [Dashboard](#dashboard)
 
 ---
 
 ## Tools and Platforms Used
 **Power Bi**  
-- purpose: For creating interactive dashboards and data visualization to analyze supply chain trends and performance metrics.
+- purpose: For creating interactive dashboards and data visualization to analyze product trends and employee performance metrics.
 - Key Features Used: Data import, transformation, DAX calculations, and custom visualization creation.
 
 **Microsoft Excel**  
-- Purpose: For preliminary data exploration and manual data cleaning for creating dataset for predictive modeling.
+- Purpose: For preliminary data exploration and manual data cleaning.
 - Key Features Used: Functions, conditional formatting, and simple visualizations.
 
 **Git Hub**  
@@ -61,12 +61,13 @@ Develop a Power BI dashboard to effectively visualize product and sales data, en
 - **Sales Trends**: Identified a 15% spike in sales during the holiday season.
 - **Product Analysis**: Dark chocolates emerged as the highest contributor, accounting for 40% of revenue.
 - **Regional Insights**: The East Coast region contributed 35% of total sales, outperforming other regions.
-- **Customer Retention**: Repeat customers constituted 25% of the customer base but contributed 60% of revenue.
+- **Employee Retention**: ll sales employees are actively contributing to the organization's sales performance; therefore, retaining the current workforce is recommended to sustain and enhance overall productivity.
 
 ### Solution
 - Focus marketing efforts on high-performing regions like the East Coast.
 - Launch promotional campaigns for top products (e.g., dark chocolates) during the holiday season.
 - Implement loyalty programs targeting repeat customers.
+- To Boost Sales, assign region-specific sales employees, allowing for a targeted approach that leverages local expertise and customer insights.
 
 ---
 
@@ -138,4 +139,4 @@ Develop a Power BI dashboard to effectively visualize product and sales data, en
 ---
 
 ## Conclusion
-The dashboard provided actionable insights, enabling stakeholders to identify key revenue drivers and optimize sales strategies.
+The Awesome Chocolates Sales Analytics Dashboard offers a comprehensive overview of sales trends, employee performance, and product insights. By leveraging these findings, stakeholders can identify key revenue drivers, optimize regional strategies, and make informed decisions to enhance profitability and customer retention. This data-driven approach supports sustainable growth and operational efficiency.
