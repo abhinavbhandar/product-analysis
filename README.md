@@ -48,7 +48,7 @@ Purpose: Used for hosting project documentation, versioning, and sharing notes r
 | **Geo**                | Geographic location (country or state)                                       | Text                |
 | **Region**             | Geographic region where the sale occurred                                    | Text                |
 | **Sales Person**       | Name of the sales representative managing the transaction                    | Text                |
-| **Team**               | Name of the sales team (e.g., Tempo, Delish)                                 | Text                |
+| **Team**               | Name of the sales team                                                       | Text                |
 
 ---
 
