@@ -34,8 +34,21 @@ Purpose: Used for hosting project documentation, versioning, and sharing notes r
 - A fictional dataset of sales data for Awesome Chocolates, including product categories, regions, sales representatives, and time-based sales records.
 
 ### Meta Data
-- **Columns**: Date, Region, Product Category, Sales Representative, Quantity Sold, Revenue, Discount Applied.
 - **Timeframe**: 13 months of sales data.
+
+| **Field Name**         | **Description**                                                               | **Data Type**        |
+|-------------------------|-------------------------------------------------------------------------------|----------------------|
+| **Cost**               | Total cost incurred for the transaction                                       | Numeric (Currency)  |
+| **Sales**              | Total revenue generated from the transaction                                  | Numeric (Currency)  |
+| **Date**               | Date of the transaction                                                      | Date                |
+| **Product**            | Name of the product sold                                                     | Text                |
+| **Boxes**              | Number of boxes sold                                                         | Numeric (Integer)   |
+| **Category**           | Product category                                                             | Text                |
+| **Cost per Box**       | Cost incurred per box                                                        | Numeric (Currency)  |
+| **Geo**                | Geographic location (country or state)                                       | Text                |
+| **Region**             | Geographic region where the sale occurred                                    | Text                |
+| **Sales Person**       | Name of the sales representative managing the transaction                    | Text                |
+| **Team**               | Name of the sales team (e.g., Tempo, Delish)                                 | Text                |
 
 ---
 
